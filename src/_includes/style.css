@@ -2,7 +2,7 @@ body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
-  color: #e6e1f1;
+  color: #e2f1e1;
   margin: 3px;
 }
 h1,
@@ -38,7 +38,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #e6e1f1;
+  color: #e2f1e1;
 }
 a:hover {
   text-decoration: underline;
@@ -50,7 +50,7 @@ a:hover {
   text-underline-offset: 4px;
 }
 main a {
-  color: #e6e1f1;
+  color: #e2f1e1;
   text-underline-offset: 4px;
 }
 main a:hover {
@@ -65,7 +65,7 @@ main .clr-underline {
   color: #3ccbd6;
 }
 main article a {
-  color: #e6e1f1;
+  color: #e2f1e1;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
