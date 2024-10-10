@@ -4,26 +4,20 @@ tag: home-page
 ---
 <section>
 <div class="text-center margin-auto md-w-75 mb-80">
-<h1 class="mb-16">Easy to manage & high performace.</h1>
-<p><a href="https://epiccss.com" class="clr-underline">Epic CSS</a> is a utility-first UI library that only outputs the styles you use. <a href="https://github.com/jeremyfaucher/epic-css-11ty-theme" class="clr-underline">Clone the Epic CSS 11ty theme</a> from Github to see the future of the web.</p>
-</div>
-<div class="container flex flex-col md-flex-row gap-40 items-start mb-80">
-{%- for post in collections.blog | reverse | limit_latest(1) -%}
-  {% include 'post-latest.njk' %}
-{%- endfor -%}
+<h1 class="mb-16">Hey there! This is Jason's temporary website.</h1>
+<p>While we work on the main website, this will serve as a holding spot. If you have any questions, feel free to reach out through any other methods on the <a href=https://landing.jasonadle.com>landing page.</a></p>
 </div>
 </section>
 <section class="mb-80">
 <div class="md-w-75">
 <h2 class="mb-24">Typewriter wolf ugh shoreditch brunch tote bag.</h2>
-<p>I'm baby hot chicken bitters irony thundercats etsy direct trade chillwave kickstarter truffaut unicorn crucifix shaman farm-to-table mixtape. Man braid wolf adaptogen chambray, irony chartreuse 90's shabby chic viral banjo live-edge.</p>
-<p>Kitsch crucifix truffaut chia flexitarian quinoa, tbh health goth man braid tote bag ramps raclette helvetica craft beer squid. Kitsch air plant gochujang, wolf occupy tumeric umami art party taiyaki celiac mustache tweet adaptogen chambray, irony chartreuse.</p>
-<p>Trust fund retro seitan knausgaard, leggings kale chips echo park meh. Glossier viral before they sold out hashtag taiyaki. Lo-fi 3 wolf moon vice cloud bread mixtape art party everyday carry taxidermy cronut raw denim put a bird on photo booth blog.</p>
+<p>According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground.</p>
+<p>The bee, of course, flies anyway because bees don't care what humans think is impossible.</p>
 </div>
 </section>
 <section class="mb-80">
-<h2 class="mb-2">Recent Blog Posts</h2>
-<p class="mb-24">YOLO pop-up synth fixie, slow-carb, fingerstache.</p>
+<h2 class="mb-2">Filler section</h2>
+<p class="mb-24">These bees are stress-testing a new helmet technology.</p>
 <div class="grid grid-col-2 gap-32">
 {%- for post in collections.blog | reverse | limit(5) -%}
   {% include 'post-summary.njk' %}
