@@ -18,9 +18,4 @@ tag: home-page
 <section class="mb-80">
 <h2 class="mb-2">Filler section</h2>
 <p class="mb-24">These bees are stress-testing a new helmet technology.</p>
-<div class="grid grid-col-2 gap-32">
-{%- for post in collections.blog | reverse | limit(5) -%}
-  {% include 'post-summary.njk' %}
-{%- endfor -%}
-</div>
 </section> 
