@@ -1,7 +1,7 @@
 # yoursite.com/robots.txt
 User-agent: googlebot
 
-Sitemap: https://yoursite.com/sitemap.xml
+Sitemap: https://jasonadle.com/sitemap.xml
 
 User-agent: *
 Disallow: /template/
